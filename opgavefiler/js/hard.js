@@ -4,12 +4,13 @@ let myInputField = document.getElementById("myInput");
 let mySubmitBTN = document.getElementById("submitBTN");
 // console.log(submitBTN);
 
+
 // util functions
 
-// function validateEmail(email) {
-//   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regulært udtryk til validering af e-mail
-//   return emailRegex.test(email); // Returnerer true, hvis e-mail er gyldig, ellers false
-// }
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regulært udtryk til validering af e-mail
+  return emailRegex.test(email); // Returnerer true, hvis e-mail er gyldig, ellers false
+}
 
 function getData() {
   const myData = [
